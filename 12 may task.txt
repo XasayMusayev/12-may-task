@@ -1,0 +1,27 @@
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] array = { 2, 3, 4, 5, 6 };
+            bool flag = false;  
+
+                Console.Write("yashinizi daxil edin, ");
+            string age = Console.ReadLine();
+            int ages = int.Parse(age);
+            foreach (int element in array)
+            {
+                if (element == ages) { flag = true; }
+            }
+            Console.WriteLine(flag);
+
+
+
+
+        }
+        
+       
+        
+    }
+}
